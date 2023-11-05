@@ -63,15 +63,15 @@ def get_jobs(num_jobs, slp_time): #'path' (for the chromedriver) and 'keyword' (
                 except NoSuchElementException:
                     company_name = "not found"
                 try:
-                    Num_reviews = company_button.find_element(By.XPATH, ".//h2[contains(@data-test, 'employer-short-name')]").text  #find_element_by_xpath('.//div[@class="employerName"]').text
+                    Num_reviews = company_button.find_element(By.XPATH, ".//h3[contains(@data-test, 'cell-Reviews-count')]").text  #find_element_by_xpath('.//div[@class="employerName"]').text
                 except NoSuchElementException:
                     Num_reviews = "not found"
                 try:
-                    Avg_Salary = company_button.find_element(By.XPATH, ".//h2[contains(@data-test, 'employer-short-name')]").text  #find_element_by_xpath('.//div[@class="employerName"]').text
+                    Avg_Salary = company_button.find_element(By.XPATH, ".//h3[contains(@data-test, 'cell-Salaries')]").text  #find_element_by_xpath('.//div[@class="employerName"]').text
                 except NoSuchElementException:
                     Avg_Salary = "not found"
                 try:
-                    Job_Openings = company_button.find_element(By.XPATH, ".//span[contains(@data-test, 'employer-location')]//a").get_attribute("href")
+                    Job_Openings = company_button.find_element(By.XPATH, ".//h3[contains(@data-test, 'cell-Jobs-count')]//a").text
                 except NoSuchElementException:
                     Job_Openings = "not found"
                 try:
@@ -95,7 +95,7 @@ def get_jobs(num_jobs, slp_time): #'path' (for the chromedriver) and 'keyword' (
                 except NoSuchElementException:
                     rating = -1 
                 collected_successfully = True
-            time.sleep(15)
+            time.sleep(7)
 
             print(company_name)
             addtional_data = company_page(driver, company_button, slp_time)
@@ -145,5 +145,5 @@ def company_page(driver, element, slp_time):
     driver.switch_to.window(ow)
     return ";".join(values)
 
-df = get_jobs(10, 10)
+df = get_jobs(15, 6)
 df.to_csv('Output_v2.csv')

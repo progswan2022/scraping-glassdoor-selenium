@@ -11,7 +11,7 @@ import pandas as pd
 # data.head()
 # data.replace(to_replace='?')
 
-df = pd.read_csv('Kaggle_Data.csv', encoding='latin-1')
+df = pd.read_csv(r"C:\Users\erins\OneDrive\Desktop\MS_Data_analytics\44-688\Capstone_Project\scraping-glassdoor-selenium\Kaggle_Data.csv", encoding='latin-1')
 # Replace Company Name with an ID ?
 
 # Remove "K" from Number of Reviews, Average Company Salary, and Num of Jobs Open
