@@ -12,8 +12,6 @@ import pandas as pd
 # data.replace(to_replace='?')
 
 df = pd.read_csv(r"C:\Users\erins\OneDrive\Desktop\MS_Data_analytics\44-688\Capstone_Project\scraping-glassdoor-selenium\Company_Rating_Data.csv", encoding='latin-1')
-# Replace Company Name with an ID ?
-
 
 df = df.drop(['Number of Reviews','Average Salary','Job Openings','Location Website', 'Company Webpage', 'Global Size 2', 'Company Location', 'Industry 2'], axis=1)
 
