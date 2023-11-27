@@ -4,6 +4,7 @@
 ### 44-688 Data Science Capstone
 
 GitHub Link: https://github.com/progswan2022/scraping-glassdoor-selenium
+
 Project Paper: https://www.overleaf.com/read/nyznvznbhjpg#83cf4e
 
 ## Introduction
