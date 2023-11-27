@@ -25,22 +25,14 @@ Training the data in Random Forest, Decision Trees, Gradient Boosting, Lasso Reg
 * Raw_all_jobs.csv - Raw Supplemental Data
 * Procesed_all_jobs.csv - Processed Supplemental Data
 
-1. AI, L., Community: What is the difference between mean squared error and mean
-absolute error in machine learning metrics?, https://www.linkedin.com/advice/
-0/what-difference-between-mean-squared-error-tz1mc
-1. Catalogue, T.D.V.: Box and whisker plots, https://datavizcatalogue.com/
-methods/box_plot.html
-1. Community, S.E.: Random forest underfitting, https://stats.stackexchange.
-com/questions/151556/random-forest-underfitting
-1. Frost, J.: Root mean squared error, https://statisticsbyjim.com/regression/
-root-mean-square-error-rmse/
-1. Glassdoor: Glassdoor research: Satisfaction drivers remain intact, https://www.
-glassdoor.com/research/satisfaction-drivers-remain-intact
-1. Glassdoor: Glassdoor research: Satisfied workers stay, https://www.glassdoor.
-com/research/satisfied-workers-stay
-1. Glassdoor: How did my company get on glassdoor?, https://stage-help.
-glassdoor.com
+### Bibliography
+1. AI, L., Community: What is the difference between mean squared error and mean absolute error in machine learning metrics?, https://www.linkedin.com/advice/0/what-difference-between-mean-squared-error-tz1mc
+1. Catalogue, T.D.V.: Box and whisker plots, https://datavizcatalogue.com/methods/box_plot.html
+1. Community, S.E.: Random forest underfitting, https://stats.stackexchange.com/questions/151556/random-forest-underfitting
+1. Frost, J.: Root mean squared error, https://statisticsbyjim.com/regression/root-mean-square-error-rmse/
+1. Glassdoor: Glassdoor research: Satisfaction drivers remain intact, https://www.glassdoor.com/research/satisfaction-drivers-remain-intact
+1. Glassdoor: Glassdoor research: Satisfied workers stay, https://www.glassdoor.com/research/satisfied-workers-stay
+1. Glassdoor: How did my company get on glassdoor?, https://stage-help.glassdoor.com
 1. GPT, C.: Why websites prevent data scraping, https://chat.openai.com/ (Chat_Openai_Results.docx)
-1. IBM: What is supervised learning?, https://www.ibm.com/topics/
-supervised-learning
+1. IBM: What is supervised learning?, https://www.ibm.com/topics/supervised-learning
 1. Jee, K.: Data science project from scratch, https://www.youtube.com/@KenJee_ds
