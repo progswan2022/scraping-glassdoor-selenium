@@ -13,6 +13,7 @@ A strategic web-scraper was built to gather company attributes found on each emp
 Training the data in Random Forest, Decision Trees, Gradient Boosting, Lasso Regression, and K-Nearest Neighbor classification models. After Hyperparameter tuning, the Random Forest model performed the best with an average error of 0.42. The maximum accuracy of the model is only 14.3\%. This is either due to the smaller sample size, outliers within the data, or the complexity of the resulting Company, compared to the attribute data recorded on Glassdoor.
 
 ## How to use this repository
+### Project Artifacts
 * glassdoor_scraping_Erin.py - Web Scraper
 * Cleaning.ipynb - Data Cleaning script
 * Company_Rating_Data.csv - Project Data
